@@ -29,3 +29,14 @@ behaviour using route params support:
             autoRoute: true
         })
         .otherwise({ redirectTo: '/error' });
+
+
+How to use in project (a example of how i use it)
+
+App.js: application routes settings
+
+https://github.com/willmendesneto/angular-architecture/blob/master/app/scripts/app.js
+
+BaseCtrl:how i receive the routeParam method and call it 
+
+https://github.com/willmendesneto/angular-architecture/blob/master/app/scripts/controllers/base/base.js
